@@ -1,0 +1,167 @@
+/* .Service-menue::after{
+       content: '';
+
+} */
+
+.menu-list {
+  list-style: none;
+  column-gap: 1.6rem;
+}
+
+.background-black {
+  background-color: #0f0f10;
+}
+
+.menu-item {
+  color: #fff;
+}
+
+.menu-item::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  background-color: #24c8a6;
+  transition: width 0.5s ease-in-out;
+}
+
+.menu-item:hover {
+  color: #24c8a6;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-item:hover::after {
+  width: 100%;
+}
+
+.down-arrow {
+  font-size: 0.7rem;
+}
+
+.dropdown-list {
+  width: 180px;
+  left: 0;
+  top: -1000%;
+}
+
+.service-menu:hover .dropdown-list {
+  top: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.dropdown-list li {
+  border-bottom: 1px solid gray;
+}
+
+.dropdown-list li .dropdown-list-item {
+  color: #fff;
+}
+
+.dropdown-list li .dropdown-list-item:hover {
+  color: #24c8a6;
+  transition: all 0.5s ease-in-out;
+}
+
+.page-menue-dropdown {
+  width: 180px;
+  left: 0;
+  top: -1000%;
+}
+
+.page-menue:hover .page-menue-dropdown {
+  top: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.page-menue-dropdown li {
+  border-bottom: 1px solid gray;
+}
+
+.page-menue-dropdown li .page-dropdown-list-item {
+  color: #fff;
+}
+
+.page-menue-dropdown li .page-dropdown-list-item:hover {
+  color: #24c8a6;
+  transition: all 0.5s ease-in-out;
+}
+
+.blog-menue-dropdown {
+  width: 180px;
+  left: 0;
+  top: -1000%;
+}
+
+.blog-menu:hover .blog-menue-dropdown {
+  top: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.page-menue-dropdown li {
+  border-bottom: 1px solid gray;
+}
+
+.blog-menue-dropdown li .blog-dropdown-list-item {
+  color: #fff;
+}
+
+.blog-menue-dropdown li .blog-dropdown-list-item:hover {
+  color: #24c8a6;
+  transition: all 0.5s ease-in-out;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu-item {
+    display: none;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
+
+
+/* *************************
+ for small screen 
+************************** */
+
+.small-screen-menu li{
+     border-bottom: 1px solid gray;
+}
+
+
+.small-screen-menu li .menu-text-color{
+    color: #fff;
+}
+
+
+
+.small-screen-menu li a::after{
+     content: "";
+     width: 0px;
+     height: 4px;
+     position: absolute;
+     left: 0;
+     bottom: 5px;
+     background-color: #24c8a6;
+     transition: width 0.5s ease-in-out;
+}
+
+
+.small-screen-menu li .active::after{
+     width: 100%;
+}
+
+/* page accordion  */
+

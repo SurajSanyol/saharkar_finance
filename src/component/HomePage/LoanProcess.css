@@ -1,0 +1,45 @@
+.single-process{
+    cursor: pointer;
+}
+
+/* .process{
+    position: relative;
+}
+
+.process::after{
+    content: "";
+    height: 10px;
+    border-bottom: 1px dashed #4783dd;
+    right: 0;
+    bottom: -40px;
+    position: absolute;
+    z-index: -1;
+
+} */
+
+
+.process-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #e8ebf2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .primary-blue {
+    color: black;
+  }
+  
+  .single-process:hover .process-icon {
+    background-color: #4783dd;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .single-process:hover .primary-blue {
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+  }
+  

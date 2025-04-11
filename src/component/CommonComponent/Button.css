@@ -1,0 +1,33 @@
+.apply-loan-btn {
+  position: relative;
+  /* cursor: pointer; */
+  background-color: #0c6d6d;
+  /* z-index: 999; */
+  border: 1px solid #ffffff;
+}
+
+.apply-loan-btn::before {
+  content: "";
+  background-color: #ce1212;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: scaleX(0); /* Start from zero width */
+  transform-origin: center; /* Expands from the middle */
+  transition: transform 0.3s ease-in-out;
+  /* z-index: -1; */
+}
+/* .apply-loan-btn:hover::before{
+  transform: scaleX(1);
+  /* height: 100%; */
+/* } */ */
+
+.apply-loan-btn:hover{
+    color: red;
+}
+
+.apply-loan-btn span {
+  z-index: 1;
+}
