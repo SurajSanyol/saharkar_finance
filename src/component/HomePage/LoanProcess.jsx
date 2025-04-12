@@ -35,25 +35,31 @@ const LoanProcess = () => {
 
           <div className="col-lg-3 col-md-6 process text-center">
             <div className="single-process">
+
               <div className="process-icon mb-3">
                 <HiOutlineDocument className="fs-1 primary-blue"/>
               </div>
+
               <div className="content">
                 <h4 className="process-title poppins-medium ">Choose Loan Amount</h4>
                 <p className="poppins-regular sub-title">Choose your loan amount and terms to use loan</p>
               </div>
+
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6 process text-center">
             <div className="single-process">
+
               <div className="process-icon mb-3">
                 <PiIdentificationCardLight className="fs-1 primary-blue"/>
               </div>
+              
               <div className="content">
                 <h4 className="process-title poppins-medium">Provide Document</h4>
                 <p className="poppins-regular sub-title">Need to provide some basic document to verification</p>
               </div>
+
             </div>
           </div>
 

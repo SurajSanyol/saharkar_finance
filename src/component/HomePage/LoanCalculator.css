@@ -1,0 +1,39 @@
+.loan-calculator {
+  position: relative;
+}
+
+.loan-calculator::before {
+  position: absolute;
+  width: 50%;
+  left: 0;
+  top: 0;
+  background-color: #232935;
+  content: "";
+  height: 100%;
+  z-index: 0;
+}
+
+.calculator-form {
+  position: relative;
+  padding-right: 50px;
+  z-index: 1;
+}
+
+.single-select {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 991px) {
+  .loan-calculator::before {
+    width: 100%;
+  }
+
+  .calculator-form {
+    padding: 0 10px;
+  }
+}

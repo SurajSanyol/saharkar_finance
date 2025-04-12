@@ -1,0 +1,29 @@
+import React from "react";
+import "./LoanSection.css";
+import TestimonialSlider from "./TestimonialSlider";
+
+const Testimonial = () => {
+  return (
+    <div style={{ padding: "70px 0" }}>
+      <div class="container">
+        <div class="row column-gap-5">
+          <div class="col-md-12 text-center">
+            <div className="section-title">
+              <h2 className="poppins-semibold fs-1 mb-3 title">Testimonials</h2>
+              <p className="poppins-regular sub-title">
+                The passages of Lorem Ipsum available but the majority have
+                suffered alteration embarrased
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-4">
+            <TestimonialSlider />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Testimonial;

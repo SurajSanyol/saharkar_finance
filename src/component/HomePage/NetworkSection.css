@@ -1,0 +1,15 @@
+
+
+@media (max-width: 991px) {
+    .map-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .map-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

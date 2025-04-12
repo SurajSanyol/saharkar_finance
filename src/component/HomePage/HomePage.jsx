@@ -6,6 +6,10 @@ import FreeConsultation from './FreeConsultation'
 import LenderSection from './LenderSection'
 import LoanProcess from './LoanProcess'
 import ExpertSection from './ExpertSection'
+import LoanCalculator from './LoanCalculator'
+import Testimonial from './Testimonial'
+import NetworkSection from './NetworkSection'
+import ArticleSection from './ArticleSection'
 
 
 
@@ -18,6 +22,10 @@ const HomePage = () => {
         <LenderSection/>
         <LoanProcess/>
         <ExpertSection/>
+        <LoanCalculator/>
+        <Testimonial/>
+        <NetworkSection/>
+        <ArticleSection/>
     </>
   )
 }
