@@ -10,6 +10,7 @@ import LoanCalculator from './LoanCalculator'
 import Testimonial from './Testimonial'
 import NetworkSection from './NetworkSection'
 import ArticleSection from './ArticleSection'
+import BrandSection from './BrandSection'
 
 
 
@@ -26,6 +27,7 @@ const HomePage = () => {
         <Testimonial/>
         <NetworkSection/>
         <ArticleSection/>
+        <BrandSection/>
     </>
   )
 }

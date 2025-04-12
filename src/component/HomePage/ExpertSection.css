@@ -41,11 +41,11 @@
 
 
 @media (max-width: 768px) {
-    .row {
+    .team-container {
         justify-content: center !important;
     }
     
-    .col-md-6 {
+    .team-sub-container {
         flex: 0 0 auto;
         width: 80%; /* Adjust this percentage as needed */
         max-width: 300px; /* Prevents cards from getting too wide */

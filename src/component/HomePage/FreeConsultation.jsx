@@ -5,10 +5,10 @@ import { Link } from "react-router";
 const FreeConsultation = () => {
   return (
     <div style={{ padding: "70px 0", backgroundColor: "rgba(0,0,0,0.8)" }}>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <div class="d-flex flex-column align-items-center">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-md-8 text-center">
+            <div className="d-flex flex-column align-items-center">
               <h4 className="poppins-medium text-white mb-3">
                 Get free consultations
               </h4>

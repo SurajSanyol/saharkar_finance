@@ -24,7 +24,7 @@ const ArticleSection = () => {
           </div>
         </div>
 
-        <div className="row mt-5">
+        <div className="row row-gap-4 mt-5">
 
           <div className="col-md-6 col-lg-4">
             <div className="single-article p-2">
@@ -64,41 +64,42 @@ const ArticleSection = () => {
 
           <div className="col-md-6 col-lg-4">
 
-            <div className="single-article-list p-2 d-flex">
+            <div className="single-article-list p-2 d-flex column-gap-3">
               <div className="article-list-img">
                 <Link to={"/"} className="text-decoration-none">
-                  <img src={articleImg3} alt="" />
+                  <img src={articleImg3} alt="" className="rounded-1" />
                 </Link>
               </div>
               <div className="article-list-content">
                 <Link to={"/"} className="text-decoration-none">
-                  <h4>Granted my loan</h4>
+                  <h4 className="poppins-medium mb-0" style={{ color: "rgba(0, 0, 0, 0.8)",fontSize:"1.1rem" }}>Granted my loan</h4>
                 </Link>
-                <p>The majority have suffer bose going to use a passage</p>
+                <p className="poppins-regular sub-title lh-sm mt-1" >The majority have suffer bose going to use a passage</p>
               </div>
             </div>
 
-            <div className="single-article-list p-2 d-flex">
+            <div className="single-article-list p-2 d-flex column-gap-3">
               <div className="article-list-img">
                 <Link to={"/"} className="text-decoration-none">
-                  <img src={articelImg4} alt="" />
+                  <img src={articelImg4} alt="" className="rounded-1" />
                 </Link>
               </div>
               <div className="article-list-content">
                 <Link to={"/"} className="text-decoration-none">
-                  <h4>Consulting assets</h4>
+                  <p className="poppins-medium mb-0" style={{ color: "rgba(0, 0, 0, 0.8)",fontSize:"1.1rem" }}>Consulting assets</p>
                 </Link>
-                <p>The majority have suffer bose going to use a passage</p>
+                <p className="poppins-regular sub-title lh-sm mt-1"  >The majority have suffer bose going to use a passage</p>
               </div>
             </div>
 
-            <div className="view-all-post">
+            <div className="view-all-post pt-3">
               <Link to={"/"} className="text-decoration-none">
-                <Button text={"VIEW ALL POST"} />
+                <Button text={"VIEW ALL POST"}/>
               </Link>
             </div>
 
           </div>
+
         </div>
       </div>
     </div>

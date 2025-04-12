@@ -27,8 +27,8 @@ const ExpertSection = () => {
           </div>
         </div>
 
-        <div className="row mt-4 row-gap-4">
-          <div className="col-lg-3 col-md-6">
+        <div className="row mt-4 row-gap-4 team-container">
+          <div className="col-lg-3 col-md-6 team-sub-container">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard 
@@ -47,8 +47,8 @@ const ExpertSection = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6">
-            <div className="single-team">
+          <div className="col-lg-3 col-md-6  team-sub-container">
+            <div className="single-team ">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
                   name={"Avdhesh Sagar"}
@@ -65,7 +65,7 @@ const ExpertSection = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-3 col-md-6  team-sub-container">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
@@ -82,7 +82,7 @@ const ExpertSection = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6">
+          <div className="col-lg-3 col-md-6  team-sub-container">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard

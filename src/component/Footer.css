@@ -1,0 +1,20 @@
+
+.Footer-sub-title{
+    color: rgba(255, 255, 255, 0.8);
+    /* color: red !important; */
+}
+
+.date{
+    font-size: 0.8rem;
+}
+
+.border-list {
+     border-bottom: 1px solid #393f4a;
+     
+}
+
+.eamil-input:focus{
+    border: none;
+    outline: none;
+    
+}
