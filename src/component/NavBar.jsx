@@ -23,7 +23,7 @@ const NavBar = () => {
 
   };
   return (
-    <div className="background-black z-3">
+    <div className="background-black z-5">
       <div className="container">
         <div className="row">
           <div className="col-md-11 col-lg-11">

@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import { HiMiniSlash } from "react-icons/hi2";
 import heroPageImg  from '../../assets/AboutImage/HeaderImage/page-header.jpg'
 
-const AboutHeroPage = () => {
+const AboutHeroPage = ({text,subTextFirst,subTextSecond}) => {
   return (
 
     <div style={{ backgroundImage: `url(${heroPageImg})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}>
@@ -31,7 +31,7 @@ const AboutHeroPage = () => {
             }}
           >
             <h2 className="text-capitalize text-white-title poppins-semibold">
-              About Us
+              {text}
             </h2>
 
             <ul className="list-unstyled">
@@ -41,7 +41,7 @@ const AboutHeroPage = () => {
                   className="text-decoration-none text-white-sub-title"
                   style={{'&:hover': { color: '#ce1212'}}}
                 >
-                  Home
+                  {subTextFirst}
                 </Link>
               </li>
               <li className="d-inline-block">
@@ -52,7 +52,7 @@ const AboutHeroPage = () => {
                   to={"/about"}
                   className="text-decoration-none text-white-sub-title"
                 >
-                  About us
+                 {subTextSecond}
                 </Link>
               </li>
             </ul>

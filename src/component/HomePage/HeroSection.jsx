@@ -34,9 +34,12 @@ export default function HeroSection() {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        style={{
+           zIndex: "-10",
+        }}
         // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper z-n1"
+        className="mySwiper"
       >
         <SwiperSlide>
           <div
@@ -52,6 +55,7 @@ export default function HeroSection() {
             }}
           >
             <div
+                
               style={{
                 backgroundColor: "rgba(0, 0, 0, 0.6)",
                 width: "100%",

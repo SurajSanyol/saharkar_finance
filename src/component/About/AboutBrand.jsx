@@ -3,13 +3,11 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import './LoanSection.css'
-import './TestimonialSlider.css'
-import brandImg1 from '../../assets/BrandImage/brand-1.png'
-import brandImg2 from '../../assets/BrandImage/brand-2.png'
-import brandImg3 from '../../assets/BrandImage/brand-3.png'
-import brandImg4 from '../../assets/BrandImage/brand-4.png'
-import brandImg5 from '../../assets/BrandImage/brand-5.png'
+import brandImg6 from '../../assets/AboutImage/aboutInfoImg/brand-6.png'
+import brandImg7 from '../../assets/AboutImage/aboutInfoImg/brand-7.png'
+import brandImg8 from '../../assets/AboutImage/aboutInfoImg/brand-8.png'
+import brandImg9 from '../../assets/AboutImage/aboutInfoImg/brand-9.png'
+import brandImg10 from '../../assets/AboutImage/aboutInfoImg/brand-10.png'
 
 
 // Import Swiper styles
@@ -21,7 +19,7 @@ import "swiper/css/navigation";
 // import required modules
 import {Autoplay } from "swiper/modules";
 
-export default function BrandSection() {
+export default function AboutBrand() {
   return (
     <>
       <Swiper
@@ -53,26 +51,26 @@ export default function BrandSection() {
             spaceBetween: 50,
           },
         }}
-        className="mySwiper pb-3 pt-3 bg-white rounded-2 container text-center mb-4"
+        className="mySwiper pb-3 pt-5 bg-white rounded-2 container text-center mb-4"
       >
         <SwiperSlide>
-            <img src={brandImg1}/>
+            <img src={brandImg6}/>
         </SwiperSlide>
 
         <SwiperSlide>
-        <img src={brandImg2}/>
+        <img src={brandImg7}/>
         </SwiperSlide>
 
         <SwiperSlide>
-        <img src={brandImg3}/>
+        <img src={brandImg8}/>
         </SwiperSlide>
 
         <SwiperSlide>
-        <img src={brandImg4}/>
+        <img src={brandImg9}/>
         </SwiperSlide>
 
         <SwiperSlide>
-        <img src={brandImg5}/>
+        <img src={brandImg10}/>
         </SwiperSlide>
       </Swiper>
     </>

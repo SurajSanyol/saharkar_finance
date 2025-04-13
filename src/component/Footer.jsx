@@ -17,8 +17,8 @@ const Footer = () => {
     <div
       style={{
         padding: "70px 0",
-        backgroundColor: "#232935",
-        // marginTop: "1.3rem",
+        backgroundColor: "#232935"
+       
       }}
     >
       <div className="container">

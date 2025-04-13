@@ -1,0 +1,13 @@
+
+
+.single-get-touch input{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    outline: none;
+}
+
+
+.single-get-touch textarea{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    outline: none;
+    height: 150px;
+}
