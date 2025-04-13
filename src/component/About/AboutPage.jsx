@@ -1,8 +1,11 @@
 import React from 'react'
+import AboutHeroPage from './AboutHeroPage'
 
 const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <>
+        <AboutHeroPage/>
+    </>
   )
 }
 

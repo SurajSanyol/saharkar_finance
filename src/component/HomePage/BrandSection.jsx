@@ -64,7 +64,7 @@ export default function BrandSection() {
             spaceBetween: 50,
           },
         }}
-        className="mySwiper pb-3 pt-3 bg-white rounded-2 container text-center"
+        className="mySwiper pb-3 pt-3 bg-white rounded-2 container text-center mb-4"
       >
         <SwiperSlide>
             <img src={brandImg1}/>

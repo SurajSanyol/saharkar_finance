@@ -18,7 +18,7 @@ const Footer = () => {
       style={{
         padding: "70px 0",
         backgroundColor: "#232935",
-        marginTop: "1.3rem",
+        // marginTop: "1.3rem",
       }}
     >
       <div className="container">
@@ -171,10 +171,10 @@ const Footer = () => {
       <div className="copy-right-section mt-3 pt-3" style={{borderTop: "1px solid #393f4a"}}>
         <div className="container">
 
-          <div className="row py-2">
+          <div className="row py-2 row-gap-3">
 
             <div className="col-md-6">
-              <div className="">
+              <div className="copy-Right-text">
                 <p className="poppins-regular Footer-sub-title mb-0">
                   <LiaCopyright/> 2024 Sahakar Finance
                 </p>
@@ -182,7 +182,7 @@ const Footer = () => {
             </div>
 
             <div className="col-md-6">
-              <div className="d-flex justify-content-end">
+              <div className="d-md-flex justify-content-md-end">
                 <Link to={'#'} className="mx-2">
                    <FaSquareFacebook className="Footer-sub-title fs-3"/>
                 </Link>
