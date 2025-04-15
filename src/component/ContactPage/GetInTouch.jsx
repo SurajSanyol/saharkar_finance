@@ -78,6 +78,7 @@ const GetInTouch = () => {
                 </div>
               </div>
             </form>
+            
           </div>
           <div className="col-md-5">
             <div className="ceo-img">

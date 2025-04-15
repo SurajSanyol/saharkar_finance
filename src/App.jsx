@@ -1,17 +1,17 @@
-import { Outlet } from "react-router"
-import NavBar from "./component/NavBar"
-import Footer from "./component/Footer"
+import { Outlet } from "react-router";
+import NavBar from "./component/NavBar";
+import Footer from "./component/Footer";
 
 function App() {
-  
   return (
     <>
-         <NavBar/>
-         <Outlet/>
-         <Footer/>
+      <NavBar />
 
+      <Outlet />
+
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

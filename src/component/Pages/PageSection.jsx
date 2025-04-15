@@ -1,8 +1,13 @@
 import React from 'react'
+import SingleBlogDetails from '../BlogPage/SingleBlogDetails'
+import AboutHeroPage from '../About/AboutHeroPage'
 
 const PageSection = () => {
   return (
-    <div>PageSection</div>
+    <> 
+    <AboutHeroPage text={"Blog Details"} subTextFirst={"Home"} subTextSecond={"Blog Details"}/>
+       <SingleBlogDetails/>
+    </>
   )
 }
 

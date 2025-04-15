@@ -6,7 +6,8 @@ import heroPageImg  from '../../assets/AboutImage/HeaderImage/page-header.jpg'
 const AboutHeroPage = ({text,subTextFirst,subTextSecond}) => {
   return (
 
-    <div style={{ backgroundImage: `url(${heroPageImg})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}>
+    <div style={{ backgroundImage: `url(${heroPageImg})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center"}}
+  >
 
     <div
       className="page-header"

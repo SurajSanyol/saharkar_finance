@@ -30,7 +30,7 @@ export default function AboutTestimonial() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        
+        style={{margin:'70px 0'}}
         modules={[Pagination, Autoplay]}
         className="mySwiper pb-5 pt-2 bg-white rounded-2"
       >

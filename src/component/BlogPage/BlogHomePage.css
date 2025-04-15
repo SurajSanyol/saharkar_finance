@@ -1,0 +1,60 @@
+
+
+
+
+.categories-sidebar ul li{
+    position:relative;
+    padding-left: 16px;
+    
+}
+
+.categories-sidebar ul li::before{
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    left: 0;
+    top:50%;
+    transform: translateY(-50%);
+    background: #3A7CDF;
+   
+}
+
+
+.blog-search-button:focus{
+    outline: none;
+   
+}
+
+
+.tagcloud a:hover{
+    color: rgba(255, 255, 255, 0.9);
+    background-color: #24c8a6;
+    transition: all 0.7s ease-in-out;
+}
+
+.categories-sidebar ul li a:hover{
+    color: #24c8a6;
+    transition: all 0.7s ease-in-out;
+}
+
+/* .post{
+    display: flex;;
+} */
+
+.left-latest-section{
+    display: none;
+}
+
+@media(max-width:768px){
+   .right-latest-section{
+     display: none;
+   }
+    .left-latest-section{
+      display: block;
+    }
+
+    .categories-sidebar{
+        margin-bottom: 16px;
+    }
+}

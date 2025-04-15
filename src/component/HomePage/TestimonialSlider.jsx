@@ -30,10 +30,12 @@ export default function TestimonialSlider() {
         pagination={{
           clickable: true,
         }}
+        
         autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
+        
         // navigation={true}
         modules={[Pagination, Navigation,Autoplay]}
         className="mySwiper pb-5 pt-2 bg-white rounded-2"

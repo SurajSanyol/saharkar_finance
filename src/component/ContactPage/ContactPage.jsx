@@ -5,11 +5,13 @@ import GoogleMap from './GoogleMap'
 
 const ContactPage = () => {
   return (
-    <>
+    <div style={{
+      zIndex: "-10",
+   }}>
         <AboutHeroPage text={"Contact Us"} subTextFirst={"Home"} subTextSecond={"Contact Us"}/>
         <GetInTouch/>
         <GoogleMap/>
-    </>
+    </div>
   )
 }
 

@@ -23,7 +23,7 @@ const NavBar = () => {
 
   };
   return (
-    <div className="background-black z-5">
+    <div className="background-black">
       <div className="container">
         <div className="row">
           <div className="col-md-11 col-lg-11">
@@ -47,7 +47,7 @@ const NavBar = () => {
                   </NavLink>
                 </li>
 
-                <li className="mb-0 py-3 position-relative service-menu">
+                <li className="mb-0 py-3 service-menu">
                   <NavLink
                     to={"service"}
                     className="text-decoration-none  py-3 text-capitalize poppins-regular menu-item position-relative"
@@ -56,27 +56,32 @@ const NavBar = () => {
                     <FaAngleDown className="ms-1 down-arrow" />
                   </NavLink>
 
-                  <ul className="position-absolute list-unstyled background-black dropdown-list z-n1">
+                  <ul className="list-unstyled black-background-dropdown dropdown-list">
+
                     <li className="px-3 py-2">
                       <Link className="text-decoration-none text-capitalize poppins-regular dropdown-list-item">
                         Services Images
                       </Link>
                     </li>
+
                     <li className="px-3 py-2">
                       <Link className="text-decoration-none text-capitalize poppins-regular dropdown-list-item">
                         Business Loan
                       </Link>
                     </li>
+
                     <li className="px-3 py-2">
                       <Link className="text-decoration-none text-capitalize poppins-regular dropdown-list-item">
                         Education Loan
                       </Link>
                     </li>
+
                     <li className="px-3 py-2">
                       <Link className="text-decoration-none text-capitalize poppins-regular dropdown-list-item">
                         Car Loan
                       </Link>
                     </li>
+
                     <li className="px-3 py-2">
                       <Link className="text-decoration-none text-capitalize poppins-regular dropdown-list-item">
                         Home Loan
@@ -94,7 +99,7 @@ const NavBar = () => {
                     <FaAngleDown className="ms-1 down-arrow" />
                   </NavLink>
 
-                  <ul className="position-absolute list-unstyled background-black  z-n1 page-menue-dropdown">
+                  <ul className="position-absolute list-unstyled background-black page-menue-dropdown">
                     <li className="px-3 py-2">
                       <Link className="text-decoration-none text-capitalize poppins-regular page-dropdown-list-item">
                         Calculator
@@ -132,9 +137,9 @@ const NavBar = () => {
                     <FaAngleDown className="ms-1 down-arrow" />
                   </NavLink>
 
-                  <ul className="position-absolute list-unstyled background-black  z-n1 blog-menue-dropdown">
+                  <ul className="position-absolute list-unstyled background-black blog-menue-dropdown">
                     <li className="px-3 py-2">
-                      <Link className="text-decoration-none text-capitalize poppins-regular blog-dropdown-list-item">
+                      <Link to={"#"}className="text-decoration-none text-capitalize poppins-regular blog-dropdown-list-item">
                         Single Blog
                       </Link>
                     </li>

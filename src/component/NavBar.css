@@ -6,6 +6,15 @@
 
 .background-black {
   background-color: #0f0f10;
+  position: sticky;
+  top: 0; 
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+.black-background-dropdown{
+  background-color: #0f0f10;
 }
 
 .menu-item {
@@ -37,13 +46,22 @@
 }
 
 .dropdown-list {
+  position: absolute;
   width: 180px;
   left: 0;
   top: -1000%;
+  z-index: -10;
+  
+}
+
+.service-menu{
+  position: relative;
+  /* z-index: 1; */
 }
 
 .service-menu:hover .dropdown-list {
   top: 100%;
+  /* z-index: -1; */
   transition: all 0.4s ease-in-out;
 }
 
@@ -53,6 +71,7 @@
 
 .dropdown-list li .dropdown-list-item {
   color: #fff;
+  z-index: -10;
 }
 
 .dropdown-list li .dropdown-list-item:hover {
@@ -92,6 +111,7 @@
 
 .blog-menu:hover .blog-menue-dropdown {
   top: 100%;
+  /* z-index: -1; */
   transition: all 0.4s ease-in-out;
 }
 

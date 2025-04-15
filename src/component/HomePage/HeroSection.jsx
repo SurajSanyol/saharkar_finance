@@ -34,9 +34,9 @@ export default function HeroSection() {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        style={{
-           zIndex: "-10",
-        }}
+        // style={{
+        //    zIndex: "-10",
+        // }}
         // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
