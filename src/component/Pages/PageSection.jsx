@@ -5,7 +5,7 @@ import AboutHeroPage from '../About/AboutHeroPage'
 const PageSection = () => {
   return (
     <> 
-    <AboutHeroPage text={"Blog Details"} subTextFirst={"Home"} subTextSecond={"Blog Details"}/>
+    <AboutHeroPage text={"Page"} subTextFirst={"Home"} subTextSecond={"Page"}/>
        <SingleBlogDetails/>
     </>
   )

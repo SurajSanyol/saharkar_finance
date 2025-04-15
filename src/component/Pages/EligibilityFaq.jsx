@@ -125,23 +125,7 @@ export default function EligibilityFaq() {
         </AccordionDetails>
       </Accordion>
 
-      {/* <Accordion
-        expanded={expanded === "panel3"}
-        onChange={handleChange("panel3")}
-      >
-        <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography component="span">
-            Do you offering refinancing ?
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            The passages of Lorem Ipsum available but the majority ave suffer
-            alteration embarrased the point of using Lorem sum is that it has a
-            more-or-less normal distribution.
-          </Typography>
-        </AccordionDetails>
-      </Accordion> */}
+    
     </div>
   );
 }

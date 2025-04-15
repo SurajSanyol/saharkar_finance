@@ -8,7 +8,7 @@ const BlogPage = () => {
     <>
         <AboutHeroPage text={"Blog"} subTextFirst={"Home"} subTextSecond={"Blog"}/>
         <BlogHomePage/>
-        {/* <Outlet/> */}
+        
     </>
   )
 }

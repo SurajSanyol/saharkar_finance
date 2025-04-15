@@ -49,7 +49,7 @@
   position: absolute;
   width: 180px;
   left: 0;
-  top: -1000%;
+  top: -1000px;
   z-index: -10;
   
 }
@@ -82,7 +82,7 @@
 .page-menue-dropdown {
   width: 180px;
   left: 0;
-  top: -1000%;
+  top: -1000px;
 }
 
 .page-menue:hover .page-menue-dropdown {
@@ -106,7 +106,7 @@
 .blog-menue-dropdown {
   width: 180px;
   left: 0;
-  top: -1000%;
+  top: -1000px;
 }
 
 .blog-menu:hover .blog-menue-dropdown {

@@ -1,0 +1,16 @@
+
+.dream-quote{
+    padding: 100px 0;;
+}
+
+.dream-quote:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(35, 41, 53, .6);
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+

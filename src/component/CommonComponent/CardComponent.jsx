@@ -17,11 +17,11 @@ export default function CardComponent({ image, subtitle, title }) {
           image={image}
           alt="green iguana"
           sx={{
-            width: "100%", // Takes full width of card
+            width: "100%", 
             objectFit: "contain",
-            objectPosition: "center", // Ensures image covers the space
+            objectPosition: "center", 
             overflow: "hidden",
-           filter: 'brightness(0) saturate(100%) invert(9%) sepia(99%) saturate(2593%) hue-rotate(212deg) brightness(89%) contrast(101%)',
+          //  filter: 'brightness(0) saturate(100%) invert(9%) sepia(99%) saturate(2593%) hue-rotate(212deg) brightness(89%) contrast(101%)',
           }}
         />
         <CardContent>

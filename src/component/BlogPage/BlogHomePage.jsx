@@ -467,6 +467,7 @@ const BlogHomePage = () => {
           {/* // right side section  */}
           <div className="col-md-4 order-1 order-md-2">
             <div className="sidebar-area">
+            
               <div
                 className="single-sidebar mb-4"
                 style={{ backgroundColor: "#f7f8fa", padding: "20px" ,border:'1px solid rgba(0,0,0,0.1)' }}

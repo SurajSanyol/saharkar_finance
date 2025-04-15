@@ -13,55 +13,115 @@ import Team from "./component/Pages/Team";
 import Testimonial from "./component/HomePage/Testimonial";
 import TestimonialPage from "./component/Pages/TestimonialPage";
 import FaQ from "./component/Pages/FaQ";
+import ServiceImg from "./component/ServicePage/ServiceImage/ServiceImg";
+import Businessloan from "./component/ServicePage/BusinessLoan/Businessloan";
+import BlogPageParentContainer from "./component/BlogPage/BlogPageParentContainer";
+import ServiceParentContainer from "./component/ServicePage/ServiceImage/ServiceParentContainer";
+import EducationLoan from "./component/ServicePage/EducationLoan/EducationLoan";
+import HomeLoan from "./component/ServicePage/HomeLoan/HomeLoan";
+import CarLoan from "./component/ServicePage/CarLoan/CarLoan";
+import PageParentContainer from "./component/Pages/PageParentContainer";
 
- export const appRouter = createBrowserRouter([
-    {
-        path:'/',
-        element:<App/>,
+export const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "about",
+        element: <AboutPage />,
+      },
+      {
+        path: "service",
+        element: <ServiceParentContainer />,
         children:[
             {
-                 path:'/',
-                 element:<HomePage/>
-            },
-            {
-                path:'about',
-                element:<AboutPage/>
-            },
-            {
-                path:'service',
+                path:"",
                 element:<ServicePage/>
             },
             {
-                path:'blog',
-                element:<BlogPage/>,
-                // children:[{
-                //      path:'singleblog',
-                //      element:<SingleBlog/>
-                // }]
-
+                path:"serviceimg",
+                element:<ServiceImg/>
             },
             {
-                path:'contact',
-                element:<ContactPage/>
-
+                path:"businessloan",
+                element:<Businessloan/>
             },
             {
-                 path:'pages',
-                 element:<PageSection/>
-
+                path:"educationloan",
+                element:<EducationLoan/>
+            },
+            {
+                path:"carloan",
+                element:<CarLoan/>
+            },
+            {
+                path:"HomeLoan",
+                element:<HomeLoan/>
+            }
+        ]
+      },
+      {
+        path: "blog",
+        element: <BlogPageParentContainer />,
+        children: [
+          {
+            path: "",
+            element: <BlogPage/>,
+          },
+          {
+            path:"singleblog",
+            element:<SingleBlog/>
+          }
+        ],
+      },
+      {
+        path: "contact",
+        element: <ContactPage />,
+      },
+      {
+        path: "pages",
+        element: <PageParentContainer/>,
+        children: [
+            {
+                path:"",
+                element:<PageSection/>
             },{
-                path:'gallery',
-                element:<Gallery/>
-            },{
-                path:'testimonial',
+                path:"team",
+                element:<Team/>
+            },
+            {
+                path:"testimonial",
                 element:<TestimonialPage/>
-            },{
-                path:'faq',
+            },
+            {
+                path:"faq",
                 element:<FaQ/>
             }
-            
 
         ]
-    }
-])
-
+      },
+      // ,{
+      //     path:'gallery',
+      //     element:<Gallery/>
+      // },{
+      //     path:'testimonial',
+      //     element:<TestimonialPage/>
+      // },{
+      //     path:'faq',
+      //     element:<FaQ/>
+      // }
+      // ,{
+      //     path:'serviceimg',
+      //     element:<ServiceImg/>
+      // },{
+      //     path:'businessloan',
+      //     element:<Businessloan/>
+      // }
+    ],
+  },
+]);

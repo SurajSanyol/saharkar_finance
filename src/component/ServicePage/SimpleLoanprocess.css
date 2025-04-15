@@ -1,0 +1,37 @@
+.second-process{
+    position: relative;
+}
+
+.process-list {
+    counter-reset: section; 
+    margin-top: 63px;
+}
+
+.second-single-loan-process{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #d2d2d2;
+    
+}
+
+.process-list .second-process:before {
+    counter-increment: section;
+    content: counter(section);
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #24c8a6;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Muli', sans-serif;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -45px;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 80px;
+    text-align: center;
+}
