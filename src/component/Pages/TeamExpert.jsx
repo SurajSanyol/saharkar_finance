@@ -20,7 +20,7 @@ const TeamExpert = () => {
     <div style={{ padding: "70px 0" }}>
       <div className="container">
         <div className="row">
-          <div className="col-md-12 text-center">
+          <div className="col-md-12 text-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="section-title">
               <h2 className="poppins-semibold fs-1 title">Our Experts</h2>
               <p className="poppins-regular sub-title">
@@ -32,7 +32,7 @@ const TeamExpert = () => {
         </div>
 
         <div className="row mt-4 row-gap-4 team-container">
-          <div className="col-lg-3 col-md-6 team-sub-container">
+          <div className="col-lg-3 col-md-6 team-sub-container"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
@@ -50,7 +50,7 @@ const TeamExpert = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6  team-sub-container">
+          <div className="col-lg-3 col-md-6  team-sub-container"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-team ">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
@@ -68,7 +68,7 @@ const TeamExpert = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6  team-sub-container">
+          <div className="col-lg-3 col-md-6  team-sub-container"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
@@ -85,7 +85,7 @@ const TeamExpert = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6  team-sub-container">
+          <div className="col-lg-3 col-md-6  team-sub-container"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
@@ -103,7 +103,7 @@ const TeamExpert = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6  team-sub-container">
+          <div className="col-lg-3 col-md-6  team-sub-container"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
@@ -121,7 +121,7 @@ const TeamExpert = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6  team-sub-container">
+          <div className="col-lg-3 col-md-6  team-sub-container"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
@@ -139,7 +139,7 @@ const TeamExpert = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6  team-sub-container">
+          <div className="col-lg-3 col-md-6  team-sub-container"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
@@ -157,7 +157,7 @@ const TeamExpert = () => {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6  team-sub-container">
+          <div className="col-lg-3 col-md-6  team-sub-container"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-team">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard

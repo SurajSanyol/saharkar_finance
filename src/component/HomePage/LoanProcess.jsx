@@ -19,7 +19,7 @@ const LoanProcess = () => {
 
         <div className="row">
           <div className="col-md-12 text-center">
-            <div className="section-title">
+            <div className="section-title" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <h2 className="poppins-semibold fs-1 title">
                 Simple Loan Process
               </h2>
@@ -34,7 +34,7 @@ const LoanProcess = () => {
         <div className="row mt-5">
 
           <div className="col-lg-3 col-md-6 process text-center">
-            <div className="single-process">
+            <div className="single-process" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
 
               <div className="process-icon mb-3">
                 <HiOutlineDocument className="fs-1 primary-blue"/>
@@ -49,7 +49,7 @@ const LoanProcess = () => {
           </div>
 
           <div className="col-lg-3 col-md-6 process text-center">
-            <div className="single-process">
+            <div className="single-process" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
 
               <div className="process-icon mb-3">
                 <PiIdentificationCardLight className="fs-1 primary-blue"/>
@@ -64,7 +64,7 @@ const LoanProcess = () => {
           </div>
 
           <div className="col-lg-3 col-md-6 process text-center">
-            <div className="single-process">
+            <div className="single-process" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="process-icon mb-3">
                 <CiCircleCheck className="fs-1 primary-blue"/>
               </div>
@@ -78,7 +78,7 @@ const LoanProcess = () => {
           </div>
 
           <div className="col-lg-3 col-md-6 process text-center">
-            <div className="single-process">
+            <div className="single-process" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="process-icon mb-3">
                 <IoCashOutline className="fs-1 w-full m-auto primary-blue"/>
               </div>

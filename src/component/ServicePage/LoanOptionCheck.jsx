@@ -11,7 +11,7 @@ const LoanOptionCheck = () => {
     >
       <div className="container">
         <div className="row row-gap-4">
-          <div className="col-md-4 checkingbg1 text-center">
+          <div className="col-md-4 checkingbg1 text-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-loan-checking-options">
               <div className="icon mb-3">
                 <img src={img1} alt="image first" className="" />
@@ -29,7 +29,7 @@ const LoanOptionCheck = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 checkingbg2 text-center">
+          <div className="col-md-4 checkingbg2 text-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-loan-checking-options">
               <div className="icon mb-3">
                 <img src={img2} alt=" image second" className="" />
@@ -45,7 +45,7 @@ const LoanOptionCheck = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 checkingbg3 text-center">
+          <div className="col-md-4 checkingbg3 text-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-loan-checking-options">
               <div className="icon mb-3">
               <img src={img3} alt=" image third" className="" />

@@ -10,7 +10,7 @@ const TestimonialContainer = () => {
     <div style={{ paddingTop: "70px" }}>
       <div className="container">
         <div className="row row-gap-4">
-          <div className="col-md-6 col-lg-4">
+          <div className="col-md-6 col-lg-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-testimonial d-flex column-gap-3">
               <div className="testimonial-img" style={{ width: "300px" }}>
                 <img
@@ -34,7 +34,7 @@ const TestimonialContainer = () => {
             </div>
           </div>
 
-          <div className="col-md-6 col-lg-4">
+          <div className="col-md-6 col-lg-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-testimonial d-flex column-gap-3">
               <div className="testimonial-img" style={{ width: "300px" }}>
                 <img
@@ -57,7 +57,7 @@ const TestimonialContainer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4">
+          <div className="col-md-6 col-lg-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-testimonial d-flex column-gap-3">
               <div className="testimonial-img" style={{ width: "300px" }}>
                 <img
@@ -80,7 +80,7 @@ const TestimonialContainer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4">
+          <div className="col-md-6 col-lg-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-testimonial d-flex column-gap-3">
               <div className="testimonial-img" style={{ width: "300px" }}>
                 <img
@@ -104,7 +104,7 @@ const TestimonialContainer = () => {
             </div>
           </div>
 
-          <div className="col-md-6 col-lg-4">
+          <div className="col-md-6 col-lg-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-testimonial d-flex column-gap-3">
               <div className="testimonial-img" style={{ width: "300px" }}>
                 <img
@@ -127,7 +127,8 @@ const TestimonialContainer = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4">
+          
+          <div className="col-md-6 col-lg-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-testimonial d-flex column-gap-3">
               <div className="testimonial-img" style={{ width: "300px" }}>
                 <img

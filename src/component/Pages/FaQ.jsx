@@ -15,25 +15,25 @@ const FaQ = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h2 className="faq-single-title text-capitalize poppins-semibold title mb-4">
+              <h2 className="faq-single-title text-capitalize poppins-semibold title mb-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 General Question
               </h2>
 
               <GeneralFaq />
 
-              <h2 className="faq-single-title text-capitalize poppins-semibold title my-4">
+              <h2 className="faq-single-title text-capitalize poppins-semibold title my-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 Eligibility &amp; Documentation
               </h2>
 
               <EligibilityFaq />
 
-              <h2 className="faq-single-title text-capitalize poppins-semibold title my-4">
+              <h2 className="faq-single-title text-capitalize poppins-semibold title my-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 About Loanplus
               </h2>
 
               <LoanPlusFaq />
 
-              <h2 className="faq-single-title text-capitalize poppins-semibold title my-4">
+              <h2 className="faq-single-title text-capitalize poppins-semibold title my-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 After Approved
               </h2>
 

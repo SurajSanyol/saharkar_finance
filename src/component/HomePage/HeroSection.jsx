@@ -27,17 +27,12 @@ export default function HeroSection() {
         spaceBetween={30}
         centeredSlides={true}
         loop={true}
-        // pagination={{
-        //   clickable: true,
-        // }}
+       
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,
         }}
-        // style={{
-        //    zIndex: "-10",
-        // }}
-        // navigation={true}
+      
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
@@ -74,7 +69,7 @@ export default function HeroSection() {
                     <h1 className="text-capitalize poppins-semibold text-white fs-1">
                       Lowest Interest Rate on Home Loan
                     </h1>
-                    <div className="d-inline-flex mt-5">
+                    <div className="d-inline-flex  mt-5 column-gap-3">
                       <Button text={"Apply Loan"} />
                       <Button text={"More Info"} />
                     </div>
@@ -119,7 +114,7 @@ export default function HeroSection() {
                     <h1 className="text-capitalize poppins-semibold text-white fs-1">
                       Are you looking for a loan ehnancement loan ?
                     </h1>
-                    <div className="d-inline-flex mt-5">
+                    <div className="d-inline-flex column-gap-3 mt-5">
                       <Button text={"Apply Loan"} />
                       <Button text={"More Info"} />
                     </div>
@@ -163,7 +158,7 @@ export default function HeroSection() {
                       RTS has you covered with options tailored to fit your
                       unique needs
                     </h1>
-                    <div className="d-inline-flex mt-5">
+                    <div className="d-inline-flex column-gap-3 mt-5">
                       <Button text={"Apply Loan"} />
                       <Button text={"More Info"} />
                     </div>
@@ -179,7 +174,7 @@ export default function HeroSection() {
         <div className="container">
           <div className="row row-gap-3">
             <div className="col-lg-3 col-md-6">
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 <IoTimerOutline className="fs-1 text-white me-4" />
                 <p className="mb-0 poppins-semibold fs-5 text-white">
                   Quick & Easy Loan <br /> Approvals
@@ -188,7 +183,7 @@ export default function HeroSection() {
             </div>
 
             <div className="col-lg-3 col-md-6">
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 <HiUserGroup className="fs-1 text-white me-4" />
                 <p className="mb-0 poppins-semibold fs-5 text-white">
                   500 Customers <br /> Satisfied
@@ -197,7 +192,7 @@ export default function HeroSection() {
             </div>
 
             <div className="col-lg-3 col-md-6">
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 <MdOutlinePayments className="fs-1 text-white me-4" />
                 <p className="mb-0 poppins-semibold fs-5 text-white">
                   No Prepayment or <br /> Hidden Fees
@@ -206,7 +201,7 @@ export default function HeroSection() {
             </div>
 
             <div className="col-lg-3 col-md-6">
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 <TfiLocationPin className="fs-1 text-white me-4" />
                 <p className="mb-0 poppins-semibold fs-5 text-white">
                   50 branches all <br /> over India

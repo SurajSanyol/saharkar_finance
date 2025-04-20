@@ -16,7 +16,7 @@ const ExpertSection = () => {
     <div style={{ padding: "70px 0" }}>
       <div className="container">
         <div className="row">
-          <div className="col-md-12 text-center">
+          <div className="col-md-12 text-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="section-title">
               <h2 className="poppins-semibold fs-1 title">Our Experts</h2>
               <p className="poppins-regular sub-title">
@@ -29,7 +29,7 @@ const ExpertSection = () => {
 
         <div className="row mt-4 row-gap-4 team-container">
           <div className="col-lg-3 col-md-6 team-sub-container">
-            <div className="single-team">
+            <div className="single-team" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard 
                   name={"J.K FAKIR"}
@@ -48,7 +48,7 @@ const ExpertSection = () => {
           </div>
 
           <div className="col-lg-3 col-md-6  team-sub-container">
-            <div className="single-team ">
+            <div className="single-team " data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
                   name={"Avdhesh Sagar"}
@@ -66,7 +66,7 @@ const ExpertSection = () => {
           </div>
 
           <div className="col-lg-3 col-md-6  team-sub-container">
-            <div className="single-team">
+            <div className="single-team" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
                   name={"Vrati"}
@@ -83,7 +83,7 @@ const ExpertSection = () => {
           </div>
 
           <div className="col-lg-3 col-md-6  team-sub-container">
-            <div className="single-team">
+            <div className="single-team" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <Link to={"/"} className="text-decoration-none team1">
                 <ExpertCard
                   name={"D Gothwal"}

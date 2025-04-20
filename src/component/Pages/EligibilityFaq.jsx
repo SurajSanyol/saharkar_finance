@@ -53,7 +53,7 @@ export default function EligibilityFaq() {
   };
 
   return (
-    <div>
+    <div data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
       <Accordion
         expanded={expanded === "panel1"}
         onChange={handleChange("panel1")}

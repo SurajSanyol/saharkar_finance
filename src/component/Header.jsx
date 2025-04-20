@@ -15,9 +15,8 @@ const Header = () => {
       
  const{showSearch,setShowSearch}= useContext(UserContext)
   
-//  console.log(showSearch)
   return (
-    <>
+    <div>
       <div style={{ backgroundColor: "#f1f1f1" }}>
         <div className="container">
           <div className="row py-2 row-gap-2">
@@ -37,7 +36,7 @@ const Header = () => {
                     className="poppins-regular mb-0"
                     style={{ color: "rgba(0,0,0,0.7)" }}
                   >
-                    <i className="fa fa-download"></i>Login
+                    Login
                   </span>
                 </a>{" "}
                 <a href="#" className="text-decoration-none">
@@ -45,7 +44,7 @@ const Header = () => {
                     className="poppins-regular mb-0"
                     style={{ color: "rgba(0,0,0,0.7)" }}
                   >
-                    <i className="fa fa-futbol-o"></i>Support
+                    Support
                   </span>{" "}
                 </a>
               </p>
@@ -134,10 +133,11 @@ const Header = () => {
       
 
       <div id='searchform' className={`searchform ${showSearch ? "show" : ""} d-flex justify-content-center align-items-center` }>
-        <input type="text" name="s" placeholder="Search Here" autoComplete="off"/>
+        <input type="text" placeholder="Search Here" autoComplete="off"/>
          <RxCross2 className="text-white fs-3 poppins-semibold" style={{cursor:"pointer"}} onClick={()=>setShowSearch(false)} />
       </div>
-    </>
+
+    </div>
   );
 };
 

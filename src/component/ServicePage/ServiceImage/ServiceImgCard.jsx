@@ -12,7 +12,7 @@ const ServiceImgCard = () => {
     <div style={{padding:'70px 0'}}>
       <div className="container">
         <div className="row row-gap-4">
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
           
             <CardComponent
               title={"Personal Loan"}
@@ -21,7 +21,7 @@ const ServiceImgCard = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <CardComponent
               title={"Car Loan"}
               subtitle={"Car loan is most popular kind of installment loan."}
@@ -29,7 +29,7 @@ const ServiceImgCard = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <CardComponent
               title={"Business Loan"}
               subtitle={"You need a loan to new business expand existing."}
@@ -37,7 +37,7 @@ const ServiceImgCard = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <CardComponent
               title={"Home Loan"}
               subtitle={
@@ -47,7 +47,7 @@ const ServiceImgCard = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <CardComponent
               title={"Education Loan"}
               subtitle={"Student get more benifit compare to businesss loan."}
@@ -55,7 +55,7 @@ const ServiceImgCard = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <CardComponent
               title={"Micro Loan"}
               subtitle={"Customer need only per day interest on loan."}

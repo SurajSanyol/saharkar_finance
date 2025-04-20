@@ -13,7 +13,7 @@ const ArticleSection = () => {
       <div className="container">
         <div className="row">
           <div className="row">
-            <div className="col-md-12 text-center">
+            <div className="col-md-12 text-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="section-title">
                 <h2 className="poppins-semibold fs-1 title">Latest Articles</h2>
                 <p className="poppins-regular sub-title">
@@ -27,7 +27,7 @@ const ArticleSection = () => {
         <div className="row row-gap-4 mt-5">
 
           <div className="col-md-6 col-lg-4">
-            <div className="single-article p-2">
+            <div className="single-article p-2" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="article-img">
                 <Link to={"/"} className="text-decoration-none">
                   <img src={articelImg1} alt="" className="w-100 rounded-2" />
@@ -45,7 +45,7 @@ const ArticleSection = () => {
           </div>
 
           <div className="col-md-6 col-lg-4">
-            <div className="single-article p-2">
+            <div className="single-article p-2" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="article-img">
                 <Link to={"/"} className="text-decoration-none">
                   <img src={articleImg2} alt="" className="w-100 rounded-2" />
@@ -64,7 +64,7 @@ const ArticleSection = () => {
 
           <div className="col-md-6 col-lg-4">
 
-            <div className="single-article-list p-2 d-flex column-gap-3">
+            <div className="single-article-list p-2 d-flex column-gap-3" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="article-list-img">
                 <Link to={"/"} className="text-decoration-none">
                   <img src={articleImg3} alt="" className="rounded-1" />
@@ -78,7 +78,7 @@ const ArticleSection = () => {
               </div>
             </div>
 
-            <div className="single-article-list p-2 d-flex column-gap-3">
+            <div className="single-article-list p-2 d-flex column-gap-3" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="article-list-img">
                 <Link to={"/"} className="text-decoration-none">
                   <img src={articelImg4} alt="" className="rounded-1" />
@@ -92,7 +92,7 @@ const ArticleSection = () => {
               </div>
             </div>
 
-            <div className="view-all-post pt-3">
+            <div className="view-all-post pt-3" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <Link to={"/"} className="text-decoration-none">
                 <Button text={"VIEW ALL POST"}/>
               </Link>

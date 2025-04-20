@@ -19,7 +19,13 @@ const BlogHomePage = () => {
         <div className="row row-gap-4">
           <div className="col-md-8 order-2 order-md-1">
             {/* First Single Blog */}
-            <div className="single-blog">
+            <div
+              className="single-blog"
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="600"
+              
+            >
               <div className="blog-thumb mb-4">
                 <Link to="single.html" className="text-decoration-none">
                   <img
@@ -84,7 +90,9 @@ const BlogHomePage = () => {
             </div>
 
             {/* Second Single Blog */}
-            <div className="single-blog my-4">
+            <div className="single-blog my-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
+            
+             >
               <div className="blog-thumb mb-4">
                 <Link to="single.html" className="text-decoration-none">
                   <img
@@ -149,7 +157,7 @@ const BlogHomePage = () => {
             </div>
 
             {/* Third Single Blog */}
-            <div className="single-blog">
+            <div className="single-blog"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="blog-thumb mb-4">
                 <Link to="single.html" className="text-decoration-none">
                   <img
@@ -214,7 +222,7 @@ const BlogHomePage = () => {
             </div>
 
             {/* Fourth Single Blog */}
-            <div className="single-blog my-4">
+            <div className="single-blog my-4"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="blog-thumb mb-4">
                 <Link to="single.html" className="text-decoration-none">
                   <img
@@ -279,7 +287,7 @@ const BlogHomePage = () => {
             </div>
 
             {/* Fifth Single Blog */}
-            <div className="single-blog">
+            <div className="single-blog"  data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="blog-thumb mb-4">
                 <Link to="single.html" className="text-decoration-none">
                   <img
@@ -345,7 +353,11 @@ const BlogHomePage = () => {
 
             <div
               className="single-sidebar my-4 left-latest-section"
-              style={{ backgroundColor: "#f7f8fa", padding: "20px" ,border:'1px solid rgba(0,0,0,0.1)' }}
+              style={{
+                backgroundColor: "#f7f8fa",
+                padding: "20px",
+                border: "1px solid rgba(0,0,0,0.1)",
+              }}
             >
               <h4 className="sidebar-title mb-3 poppins-semibold title">
                 Latest Post
@@ -467,10 +479,14 @@ const BlogHomePage = () => {
           {/* // right side section  */}
           <div className="col-md-4 order-1 order-md-2">
             <div className="sidebar-area">
-            
               <div
                 className="single-sidebar mb-4"
-                style={{ backgroundColor: "#f7f8fa", padding: "20px" ,border:'1px solid rgba(0,0,0,0.1)' }}
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
+                style={{
+                  backgroundColor: "#f7f8fa",
+                  padding: "20px",
+                  border: "1px solid rgba(0,0,0,0.1)",
+                }}
               >
                 <div className="sidebar-searchbox">
                   <form method="post" className="position-relative">
@@ -494,7 +510,12 @@ const BlogHomePage = () => {
 
               <div
                 className="categories-sidebar rounded-1"
-                style={{ backgroundColor: "#f7f8fa", padding: "20px" ,border:'1px solid rgba(0,0,0,0.1)'}}
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
+                style={{
+                  backgroundColor: "#f7f8fa",
+                  padding: "20px",
+                  border: "1px solid rgba(0,0,0,0.1)",
+                }}
               >
                 <h4 className="sidebar-title poppins-semibold title">
                   Categories
@@ -553,7 +574,12 @@ const BlogHomePage = () => {
 
               <div
                 className="single-sidebar my-4 right-latest-section"
-                style={{ backgroundColor: "#f7f8fa", padding: "20px" ,border:'1px solid rgba(0,0,0,0.1)' }}
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
+                style={{
+                  backgroundColor: "#f7f8fa",
+                  padding: "20px",
+                  border: "1px solid rgba(0,0,0,0.1)",
+                }}
               >
                 <h4 className="sidebar-title mb-3 poppins-semibold title">
                   Latest Post
@@ -639,7 +665,12 @@ const BlogHomePage = () => {
 
               <div
                 className="Archives-sidebar categories-sidebar"
-                style={{ backgroundColor: "#f7f8fa", padding: "20px",border:'1px solid rgba(0,0,0,0.1)' }}
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
+                style={{
+                  backgroundColor: "#f7f8fa",
+                  padding: "20px",
+                  border: "1px solid rgba(0,0,0,0.1)",
+                }}
               >
                 <h4 className="sidebar-title poppins-semibold title">
                   Archives
@@ -674,7 +705,12 @@ const BlogHomePage = () => {
 
               <div
                 className="single-sidebar mt-4"
-                style={{ backgroundColor: "#f7f8fa", padding: "20px" ,border:'1px solid rgba(0,0,0,0.1)' }}
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
+                style={{
+                  backgroundColor: "#f7f8fa",
+                  padding: "20px",
+                  border: "1px solid rgba(0,0,0,0.1)",
+                }}
               >
                 <h4 className="sidebar-title poppins-semibold title mb-4">
                   tags
@@ -732,7 +768,6 @@ const BlogHomePage = () => {
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

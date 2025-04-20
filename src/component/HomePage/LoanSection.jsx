@@ -14,7 +14,7 @@ const LoanSection = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
-            <div className="section-title">
+            <div className="section-title" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <h2 className="poppins-semibold fs-1 title">
                 Loans for your life
               </h2>
@@ -26,7 +26,7 @@ const LoanSection = () => {
         </div>
 
         <div className="row row-gap-4" style={{ marginTop: "40px" }}>
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
            
             <CardComponent
               title={"Personal Loan"}
@@ -35,7 +35,7 @@ const LoanSection = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             
             <CardComponent
               title={"Car Loan"}
@@ -44,7 +44,7 @@ const LoanSection = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
            
             <CardComponent
               title={"Business Loan"}
@@ -53,7 +53,7 @@ const LoanSection = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
            
             <CardComponent
               title={"Home Loan"}
@@ -64,7 +64,7 @@ const LoanSection = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
            
             <CardComponent
               title={"Education Loan"}
@@ -73,7 +73,7 @@ const LoanSection = () => {
             />
           </div>
 
-          <div className="col-lg-4 col-md-6 d-flex justify-content-center">
+          <div className="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             
             <CardComponent
               title={"Micro Loan"}

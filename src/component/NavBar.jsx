@@ -77,7 +77,7 @@ const NavBar = () => {
                     <FaAngleDown className="ms-1 down-arrow" />
                   </NavLink>
 
-                  <ul className="list-unstyled black-background-dropdown position-absolute  dropdown-list">
+                  <ul className="list-unstyled black-background-dropdown position-absolute   service-menue-dropdown">
 
                     <li className="px-3 py-2">
                       <Link to={"service/serviceimg"} className="text-decoration-none text-capitalize poppins-regular dropdown-list-item">
@@ -109,6 +109,7 @@ const NavBar = () => {
                       </Link>
                     </li>
                   </ul>
+
                 </li>
 
                 <li className="mb-0 py-3 position-relative page-menue">
@@ -122,13 +123,13 @@ const NavBar = () => {
 
                   <ul className="position-absolute list-unstyled background-black page-menue-dropdown">
                     <li className="px-3 py-2">
-                      <Link to={'#'} className="text-decoration-none text-capitalize poppins-regular page-dropdown-list-item">
+                      <Link to={'pages/calculator'} className="text-decoration-none text-capitalize poppins-regular page-dropdown-list-item">
                         Calculator
                       </Link>
                     </li>
                     <li className="px-3 py-2">
-                      <Link to={"#"} className="text-decoration-none text-capitalize poppins-regular page-dropdown-list-item">
-                        gallery
+                      <Link to={"pages/gallery"} className="text-decoration-none text-capitalize poppins-regular page-dropdown-list-item">
+                        Gallery
                       </Link>
                     </li>
                     <li className="px-3 py-2">
@@ -222,11 +223,14 @@ const NavBar = () => {
             </li>
 
             <li className="mb-0 py-3 position-relative">
+
               <NavLink
                 to={"service"}
                 className="text-decoration-none  py-3 text-capitalize poppins-regular menu-text-color d-flex justify-content-between align-items-center"
               >
-                Service
+                
+
+                <span onClick={() => closeOpenMenu()}>Service</span>
                 {!isServicePageOpen ? 
                   <FaPlus
                     onClick={() => {
@@ -247,19 +251,19 @@ const NavBar = () => {
               </NavLink>
 
               {isServicePageOpen && (
-                <ul className="list-unstyled background-black z-n1 page-accordian">
+                <ul className="list-unstyled background-black page-accordian">
                   <li className="px-3 py-2">
-                    <Link  to="service/businessloan" className="text-decoration-none text-capitalize poppins-regular text-white">
+                    <Link  to={"service/serviceimg"} className="text-decoration-none text-capitalize poppins-regular text-white" onClick={() => closeOpenMenu()}>
                       services image
                     </Link>
                   </li>
                   <li className="px-3 py-2">
-                    <Link to="service/businessloan" className="text-decoration-none text-capitalize poppins-regular text-white">
+                    <Link to="service/businessloan" className="text-decoration-none text-capitalize poppins-regular text-white" onClick={() => closeOpenMenu()}>
                       Business loan
                     </Link>
                   </li>
                   <li className="px-3 py-2">
-                    <Link to={"service/educationloan"}  className="text-decoration-none text-capitalize poppins-regular text-white">
+                    <Link to={"service/educationloan"}  className="text-decoration-none text-capitalize poppins-regular text-white" onClick={() => closeOpenMenu()}>
                       Education loan
                     </Link>
                   </li>
@@ -282,7 +286,8 @@ const NavBar = () => {
                 to={"pages"}
                 className="text-decoration-none  py-3 text-capitalize poppins-regular menu-text-color d-flex justify-content-between align-items-center"
               >
-                Pages
+                
+                <span onClick={() => closeOpenMenu()}>Pages</span>
                 {!isPageOpen ? 
                   <FaPlus
                     onClick={() => {
@@ -303,29 +308,29 @@ const NavBar = () => {
               </NavLink>
 
               {isPageOpen && (
-                <ul className="list-unstyled background-black z-n1 page-accordian">
+                <ul className="list-unstyled background-black page-accordian">
                   <li className="px-3 py-2">
-                    <Link to={"#"}  className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
+                    <Link to={"pages/calculator"}  className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
                       Calculator
                     </Link>
                   </li>
                   <li className="px-3 py-2">
-                    <Link to={"#"}  className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
+                    <Link to={"pages/gallery"}  className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
                       gallery
                     </Link>
                   </li>
                   <li className="px-3 py-2">
-                    <Link to="pages/team" className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
+                    <Link to={"pages/team"} className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
                       team
                     </Link>
                   </li>
                   <li className="px-3 py-2">
-                    <Link to="pages/testimonial" className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
+                    <Link to={"pages/testimonial"} className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
                       tesimonial
                     </Link>
                   </li>
                   <li className="px-3 py-2">
-                    <Link to="pages/faq" className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
+                    <Link to={"pages/faq"} className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
                       faq
                     </Link>
                   </li>
@@ -340,7 +345,8 @@ const NavBar = () => {
                 to="blog"
                 className="text-decoration-none  py-3 text-capitalize poppins-regular menu-text-color d-flex justify-content-between align-items-center"
               >
-                Blog
+                
+                <span onClick={() => closeOpenMenu()}>Blog</span>
 
                 {!isBlogPageOpen ? 
                   <FaPlus
@@ -365,7 +371,7 @@ const NavBar = () => {
               {isBlogPageOpen && (
                 <ul className="list-unstyled background-black z-n1 page-accordian">
                   <li className="px-3 py-2">
-                    <Link className="text-decoration-none text-capitalize poppins-regular text-white">
+                    <Link to={'blog/singleblog'} className="text-decoration-none text-capitalize poppins-regular text-white"  onClick={() => closeOpenMenu()}>
                       single blog
                     </Link>
                   </li>
@@ -378,6 +384,7 @@ const NavBar = () => {
 
             <li className="mb-0 py-3 position-relative">
               <NavLink
+                onClick={() => closeOpenMenu()}
                 to="contact"
                 className="text-decoration-none  py-3 text-capitalize poppins-regular menu-text-color"
               >

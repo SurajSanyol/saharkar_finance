@@ -21,7 +21,7 @@ const LoanCalculator = () => {
           <div className="col-md-12 col-lg-6">
             <div className="calculator-form">
 
-              <div className="section-title">
+              <div className="section-title" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 <h2 className="poppins-semibold fs-1 text-white mb-3">
                   Loans Calculator
                 </h2>
@@ -31,7 +31,7 @@ const LoanCalculator = () => {
                 </p>
               </div>
 
-              <form action="#" method="get">
+              <form action="#" method="get" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 <div className="row row-gap-3">
                   <div className="col-lg-6">
                     <div className="single-select">

@@ -13,7 +13,7 @@ const LenderSection = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
-            <div className="section-title">
+            <div className="section-title" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <h2 className="poppins-semibold fs-1 title">Why Choose Lender</h2>
               <p className="poppins-regular sub-title">
                 Choose sahakar finance for expert guidance, diverse loan
@@ -26,7 +26,7 @@ const LenderSection = () => {
 
         <div className="row mt-5 row-gap-4">
           <div className="col-lg-4">
-            <div className="text-center rounded-4 position-relative overflow-hidden">
+            <div className="text-center rounded-4 position-relative overflow-hidden" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="choose-img">
                 <img src={chooseImg1} alt="" className="rounded-4 img-fluid" />
               </div>
@@ -41,7 +41,7 @@ const LenderSection = () => {
           </div>
 
           <div className="col-lg-4">
-            <div className="text-center position-relative overflow-hidden rounded-4 ">
+            <div className="text-center position-relative overflow-hidden rounded-4" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="choose-img">
                 <img src={chooseImg2} alt="" className="rounded-4  img-fluid" />
               </div>
@@ -56,7 +56,7 @@ const LenderSection = () => {
           </div>
 
           <div className="col-lg-4">
-            <div className="text-center position-relative overflow-hidden rounded-4 ">
+            <div className="text-center position-relative overflow-hidden rounded-4" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="choose-img">
                 <img src={chooseImg3} alt="" className="rounded-4  img-fluid" />
               </div>

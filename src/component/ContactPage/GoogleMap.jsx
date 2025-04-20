@@ -7,9 +7,8 @@ const GoogleMap = () => {
       width="100%"
       height="450"
       style={{ border: "0", marginBottom: "-4px" }}
-      allowfullscreen=""
       loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
+       data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
     ></iframe>
   );
 };

@@ -18,7 +18,7 @@ const AboutInfo = () => {
       >
         <div className="row row-gap-4">
           <div className="col-lg-6 order-lg-1 order-2">
-            <div className="single-image">
+            <div className="single-image" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <img
                 src={aboutinfoImg}
                 alt="aboutImage"
@@ -27,7 +27,7 @@ const AboutInfo = () => {
             </div>
           </div>
           <div className="col-lg-6 order-lg-2 order-1">
-            <div className="about-content">
+            <div className="about-content" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <h2 className="poppins-semibold title text-capitalize text-center fs-1 mb-3">
                 about Info RTS
               </h2>
@@ -59,7 +59,7 @@ const AboutInfo = () => {
       <div className="container pt-5">
         <div className="row row-gap-4">
 
-          <div className="col-md-6 ps-md-1">
+          <div className="col-md-6 ps-md-1" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-vision d-flex column-gap-3">
               <div className="vision-img col-6">
                 <img
@@ -84,7 +84,7 @@ const AboutInfo = () => {
           </div>
 
           <div className="col-md-6 pe-md-1">
-            <div className="single-vision  d-flex column-gap-3">
+            <div className="single-vision  d-flex column-gap-3" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="vision-img col-6">
                 <img
                   src={visionImage2}

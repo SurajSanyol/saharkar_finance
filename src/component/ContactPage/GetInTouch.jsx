@@ -15,7 +15,7 @@ const GetInTouch = () => {
       <div className="container">
 
         <div className="row row-gap-4 pb-4">
-          <div className="col-md-7">
+          <div className="col-md-7" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="get-in-touch">
               <h2 className="poppins-semibold title text-center">
                 Get in Touch
@@ -80,7 +80,7 @@ const GetInTouch = () => {
             </form>
             
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="ceo-img">
               <img src={CeoImg} alt="ceo img" className=" w-100 rounded-2" />
             </div>
@@ -94,7 +94,7 @@ const GetInTouch = () => {
         </div>
 
         <div className="row pt-4 row-gap-4">
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-contact-info d-flex align-items-center">
               <div className="icon me-3">
                 <img src={mapPinImg} alt="map pin img" />
@@ -107,7 +107,7 @@ const GetInTouch = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-contact-info d-flex align-items-center">
               <div className="icon me-3">
                 <img src={emailImg} alt="email img" />
@@ -120,7 +120,7 @@ const GetInTouch = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="single-contact-info  d-flex align-items-center">
               <div className="icon me-3">
                 <img src={phoneImg} alt="phone img" />

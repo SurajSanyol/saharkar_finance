@@ -12,7 +12,7 @@ const SimpleLoanProcess = () => {
       <div className="container">
 
         <div className="row">
-          <div className="col-md-12 text-center">
+          <div className="col-md-12 text-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="section-title">
               <h2 className="poppins-semibold fs-1 title">
                 Simple Loan Process
@@ -26,7 +26,7 @@ const SimpleLoanProcess = () => {
         </div>
 
         <div className="row process-list">
-          <div className="col-md-3 second-process">
+          <div className="col-md-3 second-process" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="second-single-loan-process">
               <h4 className="poppins-semibold title mb-4">Choose Amount</h4>
               <div className="icon d-flex justify-content-center">
@@ -34,7 +34,7 @@ const SimpleLoanProcess = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 second-process">
+          <div className="col-md-3 second-process" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="second-single-loan-process">
               <h4 className="poppins-semibold title mb-4">Provide Document</h4>
               <div className="icon d-flex justify-content-center">
@@ -42,7 +42,7 @@ const SimpleLoanProcess = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 second-process">
+          <div className="col-md-3 second-process" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="second-single-loan-process">
               <h4 className="poppins-semibold title mb-4">Approved Loan</h4>
               <div className="icon d-flex justify-content-center">
@@ -50,7 +50,7 @@ const SimpleLoanProcess = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 second-process">
+          <div className="col-md-3 second-process" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="second-single-loan-process">
               <h4 className="poppins-semibold title mb-4">Get your Money</h4>
               <div className="icon d-flex justify-content-center">

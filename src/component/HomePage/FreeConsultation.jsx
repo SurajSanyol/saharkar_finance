@@ -8,7 +8,7 @@ const FreeConsultation = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
-            <div className="d-flex flex-column align-items-center">
+            <div className="d-flex flex-column align-items-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <h4 className="poppins-medium text-white mb-3">
                 Get free consultations
               </h4>

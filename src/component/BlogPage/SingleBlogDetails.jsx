@@ -23,7 +23,8 @@ const SingleBlogDetails = () => {
       <div className="container">
         <div className="row row-gap-4 pb-4">
           <div className="col-md-8 order-2 order-md-1">
-            <div className="single-blog single-page">
+
+            <div className="single-blog single-page" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="blog-thumb">
                 <Link to="single.html" className="text-decoration-none">
                   <img
@@ -135,7 +136,7 @@ const SingleBlogDetails = () => {
                 </div>
               </div>
 
-              <div className="col-md-6 text-right">
+              <div className="col-md-6 text-right" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
                 <div className="share float-end">
                   <span className="poppins-medium">Share :</span>
                   <Link to={"#"} className="text-decoration-none px-2">
@@ -153,7 +154,7 @@ const SingleBlogDetails = () => {
               </div>
             </div>
 
-            <div className="row row-gap-4 related-articale mt-5">
+            <div className="row row-gap-4 related-articale mt-5" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="col-md-12">
                 <h2 className="related-post poppins-semibold title mb-4">
                   Related Post
@@ -207,7 +208,7 @@ const SingleBlogDetails = () => {
               </div>
             </div>
 
-            <div className="row">
+            <div className="row" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="col-md-12">
                 <h3 className="comments-count poppins-medium title my-4">
                   Comments (02)
@@ -215,7 +216,7 @@ const SingleBlogDetails = () => {
               </div>
             </div>
 
-            <div className="row">
+            <div className="row" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="col-md-12">
                 <div
                   className="single-comment  d-flex column-gap-3 pb-4"
@@ -271,7 +272,7 @@ const SingleBlogDetails = () => {
               </div>
             </div>
 
-            <div className="row mt-5">
+            <div className="row mt-5" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
               <div className="col-md-12">
                 <h2 className="leave-a-comment poppins-medium title mb-3">
                   Post a Comments
@@ -301,6 +302,7 @@ const SingleBlogDetails = () => {
             <div className="sidebar-area">
               <div
                 className="single-sidebar mb-4"
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
                 style={{
                   backgroundColor: "#f7f8fa",
                   padding: "20px",
@@ -329,6 +331,7 @@ const SingleBlogDetails = () => {
 
               <div
                 className="categories-sidebar rounded-1"
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
                 style={{
                   backgroundColor: "#f7f8fa",
                   padding: "20px",
@@ -392,6 +395,7 @@ const SingleBlogDetails = () => {
 
               <div
                 className="single-sidebar my-4 right-latest-section"
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
                 style={{
                   backgroundColor: "#f7f8fa",
                   padding: "20px",
@@ -482,6 +486,7 @@ const SingleBlogDetails = () => {
 
               <div
                 className="Archives-sidebar"
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
                 style={{
                   backgroundColor: "#f7f8fa",
                   padding: "20px",
@@ -521,6 +526,7 @@ const SingleBlogDetails = () => {
 
               <div
                 className="single-sidebar mt-4"
+                data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
                 style={{
                   backgroundColor: "#f7f8fa",
                   padding: "20px",

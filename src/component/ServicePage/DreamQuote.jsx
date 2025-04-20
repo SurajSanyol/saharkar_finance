@@ -10,7 +10,7 @@ const DreamQuote = () => {
     <div style={{backgroundImage:`url(${dreamImg})`,backrroundSize:"cover",backgroundRepeat:"no-repeat",backgroundPosition:"center",position:"relative", zIndex:'-3'}} className="dream-quote">
       <div className="container">
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-8" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="dream-quote-text">
               <h5 className="poppins-regular" style={{color:"rgba(255,255,255,1)"}}>Available but the major have embarrased</h5>
               <h1 className="poppins-semibold text-white mb-3">

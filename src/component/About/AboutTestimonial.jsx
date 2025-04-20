@@ -32,9 +32,10 @@ export default function AboutTestimonial() {
         }}
         style={{margin:'70px 0'}}
         modules={[Pagination, Autoplay]}
+        data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600"
         className="mySwiper pb-5 pt-2 bg-white rounded-2"
       >
-        <SwiperSlide>
+        <SwiperSlide >
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-10 col-md-12">

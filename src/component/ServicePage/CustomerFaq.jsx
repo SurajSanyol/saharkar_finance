@@ -8,7 +8,7 @@ const CustomerFaq = () => {
     <div style={{ padding: "70px 0" }}>
       <div className="container">
         <div className="row">
-          <div className="col-md-12 text-center">
+          <div className="col-md-12 text-center" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <div className="section-title">
               <h2 className="poppins-semibold fs-1 title">Customer Faq’s</h2>
               <p className="poppins-regular sub-title">
@@ -20,11 +20,11 @@ const CustomerFaq = () => {
         </div>
 
         <div className="row mt-4">
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <GeneralFaq />
           </div>
 
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-up"  data-aos-delay="70" data-aos-duration="600">
             <EligibilityFaq />
           </div>
         </div>
