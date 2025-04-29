@@ -1,62 +1,13 @@
 import { Button } from "@mui/material";
 import React from "react";
 import { useState } from "react";
-import LightGallery from "lightgallery/react";
 import {allImageData} from "../RawImageData";
-import lgZoom from "lightgallery/plugins/zoom";
-import lgThumbnail from "lightgallery/plugins/thumbnail";
 
-//  const allImageData = [
-//     {
-//       id: 1,
-//       category: "MicroLoan",
-//       imgSource: portfolio2
-//     },
-//     {
-//       id: 2,
-//       category: "MicroLoan",
-//       imgSource:portfolio8
-//     },
-//     {
-//       id: 3,
-//       category: "PersonalLoan",
-//       imgSource: portfolio1
-//     },
-//     {
-//       id: 4,
-//       category: "PersonalLoan",
-//      imgSource: portfolio4
-//     },
-//     {
-//       id: 5,
-//       category: "PersonalLoan",
-//        imgSource: portfolio6
-//     },
-//     {
-//       id: 6,
-//       category: "HomeLoan",
-//        imgSource: portfolio5
-//     },
-//     {
-//         id: 7,
-//         category: "HomeLoan",
-//         imgSource: portfolio8
-//       },
-//       {
-//         id: 8,
-//         category: "EducationLoan",
-//        imgSource: portfolio7
-//       },
-//       { 
-//         id: 9,
-//         category: "EducationLoan",
-//        imgSource:portfolio9
-//       },
-//   ];
+
 
 const ImageGallery = () => {
   const [imageData, setImageData] = useState(allImageData);
-  // console.log(allImageData);
+ 
   const handleFilter = (category) => {
     const updatedList = allImageData.filter((x) => x.category === category);
     setImageData(updatedList);
@@ -100,24 +51,6 @@ const ImageGallery = () => {
 
       
 
-        {/* <LightGallery
-          mode="lg-fade"
-          dynamic={true}
-          dynamicEl={imageData.map((item) => {
-            return {
-              src: item.imgSource,
-            };
-          })}
-          // dynamicEl={imageData.map((item) => ({
-          //   src: item.imgSource,
-          //   thumb: item.imgSource,
-          //   subHtml: `<h4>${item.category}</h4>`,
-          // }))}
-          // dynamicEl={newArray}
-          plugins={[lgZoom, lgThumbnail]}
-          speed={500}
-          style={{ minHeight: "300px", background: "#f0f0f0" }} // Debug style
-        ></LightGallery> */}
 
         <div className="row mt-5">
           {imageData.map((item) => (
@@ -131,6 +64,7 @@ const ImageGallery = () => {
             </div>
           ))}
         </div>
+
       </div>
     </div>
   );

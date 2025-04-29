@@ -159,8 +159,10 @@ const Footer = () => {
                       className="poppins-regular px-2 py-2 eamil-input border-0"
                     />
                   </div>
+                  <Link to={'#'}  className="text-decoration-none">
 
                   <Button text={"Subscribe +"} />
+                  </Link>
                 </form>
               </div>
             </div>

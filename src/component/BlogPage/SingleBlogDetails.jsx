@@ -15,7 +15,7 @@ import { FaUserCircle } from "react-icons/fa";
 import { FaReplyAll } from "react-icons/fa6";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { BiSolidQuoteAltRight } from "react-icons/bi";
-import Button from "../CommonComponent/Button";
+import Button from "../CommonComponent/Button.jsx";
 
 const SingleBlogDetails = () => {
   return (
